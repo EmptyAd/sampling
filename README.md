@@ -40,24 +40,3 @@ To run the notebook, make sure the following dependencies are installed:
   pip install pandas numpy matplotlib seaborn imbalanced-learn
   ```
 
-## Visualizations
-
-- **Before Resampling**: Bar charts to show the original class imbalance.
-- **After Resampling**: Bar charts demonstrating the balanced dataset.
-
-
-## Example Outputs
-
-### Class Distribution (Before and After Resampling)
-
-- Before Resampling:
-  ![Original Class Distribution](path-to-image-before.png)
-
-- After Resampling:
-  ![Resampled Class Distribution](path-to-image-after.png)
-
-### Sample of Resampled Dataset
-| Feature 1 | Feature 2 | Feature 3 | Class |
-|-----------|-----------|-----------|-------|
-| 1.2       | 3.4       | 2.1       | 0     |
-| 4.5       | 1.2       | 5.4       | 1     |
